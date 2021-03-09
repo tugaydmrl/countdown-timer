@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
+@media screen and (min-width: 700px) {
+  .countdown-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .countdown-container {
+    color: #8f2ab9;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,10 +32,6 @@ body {
 h1 {
   font-size: 3rem;
   margin-top: 3rem;
-}
-
-.countdown-container {
-  display: flex;
 }
 
 .big-text {
