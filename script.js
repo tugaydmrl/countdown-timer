@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const CourseExpired = "28 March 2021";
+const CourseExpired = "1 January 2022";
 
 const countdown = () => {
   const courseTime = new Date(CourseExpired);
